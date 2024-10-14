@@ -1,0 +1,30 @@
+.contenedor{
+    padding: 5px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-areas: "header header header"
+                         "nav nav nav"
+                         "contenido1 contenido2 contenido"
+                         ;
+}
+.contenedor .header{
+    background-color: aliceblue;
+    grid-area: header;
+}
+.contenedor .nav{
+    background-color: aliceblue;
+    grid-area: nav;
+}
+.contenido{
+    background-color: aliceblue;
+    grid-area: contenido;
+}
+.contenedor .contenido2{
+    background-color: aliceblue;
+    grid-area: contenido2;
+}
+.contenedor .contenido1{
+    background-color: aliceblue;
+    grid-area: contenido1;
+}

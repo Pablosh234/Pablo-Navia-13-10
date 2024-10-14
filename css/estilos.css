@@ -1,0 +1,14 @@
+.contenedor{
+    padding: 5px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas: "header header"
+                         "menu menu"
+                         "contenido ads"
+                         "footer footer";
+}
+.contenedor .header{
+    background-color: blue;
+    grid-area: header;
+}
